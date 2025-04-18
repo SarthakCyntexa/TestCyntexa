@@ -108,15 +108,15 @@ public class Assignment1 {
     public static void ques9(){
         char i;
         for(i='A'; i<='Z'; i++) {
-            int ascii = (int) i;
+            int ascii = i;
             System.out.println(i + ":" + ascii);
         }
         for(i='a'; i<='z'; i++){
-            int ascii = (int) i;
+            int ascii = i;
             System.out.println(i + ":" + ascii);
         }
         for(i='0'; i<='9'; i++){
-            int ascii = (int) i;
+            int ascii = i;
             System.out.println(i + ":" + ascii);
         }
     }
